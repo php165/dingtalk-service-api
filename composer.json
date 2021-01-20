@@ -3,7 +3,6 @@
     "description": "ding service api",
     "type": "project",
     "require": {
-        "wxiangqian/laravel-dingtalk": "1"
     },
     "license": "MIT",
     "authors": [

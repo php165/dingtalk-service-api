@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0a801431d0ca8bc3dfcec3536ed65938",
+    "packages": [
+        {
+            "name": "wxiangqian/laravel-dingtalk",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WXiangQian/laravel-ding-talk.git",
+                "reference": "4c004e8825bfce96e9b135188eb3ba00f224beb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WXiangQian/laravel-ding-talk/zipball/4c004e8825bfce96e9b135188eb3ba00f224beb4",
+                "reference": "4c004e8825bfce96e9b135188eb3ba00f224beb4",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Qian\\DingTalk\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xiangqian",
+                    "email": "175023117@qq.com"
+                }
+            ],
+            "description": "This package makes it easy to send notifications using Dingtalk Bot",
+            "support": {
+                "issues": "https://github.com/WXiangQian/laravel-ding-talk/issues",
+                "source": "https://github.com/WXiangQian/laravel-ding-talk/tree/v1.0.0"
+            },
+            "time": "2018-11-08T03:52:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

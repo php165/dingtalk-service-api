@@ -1,0 +1,19 @@
+{
+    "name": "dingtalkcool/dingtalk-service-api",
+    "description": "this is for cool company",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thinkPad-myj",
+            "email": "815081410@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Cool\\DingTalk\\": "dingtalk/src"
+        }
+    },
+    "require": {}
+}

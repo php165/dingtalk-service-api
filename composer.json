@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Cool\\DingTalk\\": "dingtalk/src"
+            "Cool\\DingTalking\\": "dingtalk/src/"
         }
     },
     "require": {}

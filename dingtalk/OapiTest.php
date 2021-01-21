@@ -21,8 +21,8 @@ class OapiTest{
     {
         $c = new DingTalkClient(DingTalkConstant::$CALL_TYPE_OAPI, DingTalkConstant::$METHOD_GET , DingTalkConstant::$FORMAT_JSON);
         $req = new OapiGettokenRequest;
-        $req->setAppkey('dingckdokvgq3w7y91il');
-        $req->setAppsecret('A4Ic2Inj6WlG9TYlLTR8wwKToVuSaID9MkKnRZktwA9xrV-MTHT9HdvNOUXTC5Fe');
+        $req->setAppkey('********');
+        $req->setAppsecret('-MTHT9HdvNOUXTC5Fe');
         $resp = $c->execute($req, $access_token = null, "https://oapi.dingtalk.com/gettoken");
         var_dump($resp);
     }

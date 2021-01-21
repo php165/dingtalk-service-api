@@ -6,6 +6,7 @@
  * @since 1.0, 2018.07.25
  */
 namespace Cool\DingTalking\request;
+use Cool\DingTalking\RequestCheckUtil;
 class OapiMediaUploadRequest
 {
 	/** 

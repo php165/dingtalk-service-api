@@ -1,5 +1,6 @@
 <?php
 namespace Cool\DingTalking;
+use Cool\DingTalking\ResultSet;
 class DingTalkClient
 {
 	/**@Author chaohui.zch copy from TopClient and modify 2016-12-14 **/

@@ -109,11 +109,7 @@ class DingTalkClient
     public function curl_get($url,$apiFields = null)
     {
         $ch = curl_init();
-
-        foreach ($apiFields as $key => $value)
-        {
-            $url .= "&" ."$key=" . urlencode($value);
-        }
+        $url .= http_build_query($apiFields);
 
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: zuodeng
- * Date: 2018/7/18
- * Time: 上午11:31
- */
+
 namespace Cool\DingTalking;
 class DingTalkConstant
 {
